@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<?php
+/*
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+?>
 <html lang="en">
    <head>
       <meta charset="utf-8" />
@@ -79,7 +90,7 @@
                                  if ($mxhosts[$i] == "mx.pec.aruba.it") {
                                      echo "✅&nbsp; MX record is pointing to mx.pec.aruba.it<br>";
                                      if ($weight[$i] === 10) {
-                                         echo "✅&nbsp; Prio is set o 10.";
+                                         echo "✅&nbsp; Prio is set to 10.";
                                      } else {
                                          echo "🔘&nbsp; Prio is not set to 10.";
                                          break;
